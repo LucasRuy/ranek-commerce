@@ -1,25 +1,28 @@
 {
   "name": "ranek-commerce",
   "version": "1.0.0",
-  "description": "a simples ecommerce project created with VueJS",
+  "description": "a simples ecommerce project created with VueJS.",
   "main": "index.js",
   "repository": "git@github.com:LucasRuy/ranek-commerce.git",
   "author": "lucasruy <lucasplet@gmail.com>",
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "commit": "git-cz"
+    "commit": "echo 'Teste...'"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.3",
     "@commitlint/config-conventional": "^16.0.0",
     "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "3.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+      "defaultType": "feat",
+      "maxHeaderWidth": 90,
+      "maxLineWidth": 150
     }
   }
 }
