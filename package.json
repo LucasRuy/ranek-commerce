@@ -1,0 +1,9 @@
+{
+  "name": "ranek-commerce",
+  "version": "1.0.0",
+  "description": "a simples ecommerce project created with VueJS",
+  "main": "index.js",
+  "repository": "git@github.com:LucasRuy/ranek-commerce.git",
+  "author": "lucasruy <lucasplet@gmail.com>",
+  "license": "MIT"
+}
